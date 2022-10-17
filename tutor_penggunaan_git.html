@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+</head>
+<body>
+   <h1>Cara penggunaan git dan langkah-langkahnya lengkapi juga dengan screenshot prosesnya</h1>
+   <h2>1. Masuk Git</h2>
+   <p>Untuk login ke git, bisa menggunakan akun GitHub, Gitlab, atau Bitbucket. Jika belum memiliki akun dari ketiga platform tersebut, bisa mendaftarkan diri lewat Command Prompt atau Command Line. Kemudian masukkan perintah di bawah</p>
+  <p>$ git config --global user.name IsiDenganNamaAnda   masukkan username</p> 
+  <p>$ git config --global user.email IsiDenganEmailAnda.com  massukkan email</p>
+  <p>Selanjutnya untuk memastikan proses login berhasil atau tidak, ketik perintah</p>
+  <p>$ git config --list</p>
+  <p><img src="Screenshot (1).png"/></p>
+  <h2>2. Masuk GitHub</h2>
+  <p>Untuk menggunakan Git, buat akun GitHub jika belum mempunyai akun GitHub. GitHub dan Git mempunyai hubungan khusus yaitu Git berperan sebagai Version Control System sedangkan GitHub berperan sebagai penyimpan kode pemrograman.</p>
+  <p><img src="Screenshot (2).png"/></p>
+  <h2>3. Buat Repositori</h2>
+  <p>Setelah berhasil login ke GitHub, bisa mulai membuat repositori. Klik tombol New pada menu Repositories untuk membuat repositori baru. kemudian diarahkan pada halaman untuk membuat repositori baru. Detail dan penjelasan yaitu</p>
+  <p><img src="Screenshot (3).png"/></p>
+  <p>1.Nama Repositori, digunakan untuk identitas repository yang dibuat</p>
+  <p>2.Description Repository, untuk deskripsi Repository</p>
+  <p>3.Jenis Repository, jenis repository dibagi menjadi public dan private. Public, orang lain dapat melihat repository yang dibuat sedangkan private, hanya dibaca oleh pemilik itu sendiri</p>
+  <h2>4. Buat Folder di Windows</h2>
+  <p>Selanjutnya membuat folder pada local disk komputer. Fungsinya untuk menyimpan update file dari repository GitHub yang telah dibuat</p>
+  <h2>5. Buka Folder Menggunakan GitBash</h2>
+  <p>Setelah berhasil membuat folder pada local disk computer, buka folder tersebut dengan klik kanan, lalu pilih GitBash here. setelah itu command prompt akan muncul</p>
+  <h2>6. Ubah folder menjadi repository(master)</h2>
+  <p>Setelah itu ubah folder tersebut menjadi repository(master) menggunakan perintah</p>
+  <h2>7. Tambahkan file repository</h2>
+  <p>Untuk menambahkan file, perlu menerapkan langkah-langkah dibawah ini: a. buat file di folder yang sudah dibuat contohnya, file index.php b. Buka GitBash lalu masukkan perintah</p>
+  <p>$ git add README.md</p>
+  <h2>8. Buat komitmen</h2>
+  <p>Selanjutnya perlu membuat commit. commit pekerja untuk menambahkan file update serta komentar. jadi setiap kontributor bisa memberikan konfirmasi update proyek yang sedang dikerjakan. Masukkan perintah</p>
+  <p>$ git Commit -M "first commit"</p>
+  <h2>9. ikuti langkah pada GitHub</h2>
+  <p>Masuk ke Github. Masuk repository di GitHub. ikuti langkah pada persegi biru atau masukkan perintah</p>
+  <p>$ git remote add origin https://github.com/Kudav5/NamaRepository.git</p>
+  <p>$ git branch -M main  <- akan berubah (master) menjadi (main)</p>
+  <p>$ git push -u origin main`</p>
+  <p>Jika ada kesalahan error: remote origin already exists ketika memasukkan perintah</p>
+  <p>$ git remote masukkan perintah</p>
+  <p>$ git remote remove origin</p>
+  <p>dan ulangi langkah awal</p>
+  <p>$ git remote</p>
+  <h2>10. Cek File</h2>
+  <p>Cek repositori yang dibuat di GitHub</p>
+   </body>
+   </html>
